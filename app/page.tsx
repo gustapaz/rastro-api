@@ -37,8 +37,8 @@ export default function Home() {
           <h2>Escopo e limites</h2>
           <p>{meta.limits}</p>
           <p>
-            Serviço público, sem efeitos externos ou armazenamento. Use somente
-            dados sintéticos. A disponibilidade depende da hospedagem.
+            Serviço público com eventos persistidos no banco. Use somente dados
+            sintéticos. A disponibilidade depende da hospedagem.
           </p>
           <a href="/api/health">Verificar motor →</a>
         </div>
